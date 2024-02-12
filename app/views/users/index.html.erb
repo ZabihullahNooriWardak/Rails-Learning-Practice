@@ -8,7 +8,7 @@
  name: <%= user.name %>
  email: <%= user.email %>
  <%= link_to 'edit' ,edit_user_path(user)%>
- <%= link_to 'delete' , user, method: :delete, data:{confirm:'are you sure?'}%>
+ <%= button_to 'delete' , user, method: :delete, data:{confirm:'are you sure?'}%>
 <br>
 <% end %>
 <br>
