@@ -1,2 +1,24 @@
-# Rails-Learning-Practice
-This repository is your personal gateway to mastering Ruby on Rails, a dynamic web application framework known for its elegance and productivity. Whether you're just starting your journey into web development or looking to enhance your skills, this repository is designed to provide you with the resources and guidance you need to succeed.
+# README
+
+This README would normally document whatever steps are necessary to get the
+application up and running.
+
+Things you may want to cover:
+
+* Ruby version
+
+* System dependencies
+
+* Configuration
+
+* Database creation
+
+* Database initialization
+
+* How to run the test suite
+
+* Services (job queues, cache servers, search engines, etc.)
+
+* Deployment instructions
+
+* ...
