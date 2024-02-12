@@ -5,10 +5,12 @@
 
 <% @users.each do |user|%>
   
- name: <%= user.name %><br>
+ name: <%= user.name %>
  email: <%= user.email %>
- <br>
+ <%= link_to 'edit' ,edit_user_path(user)%>
+ <%= link_to 'delete' , user, method: :delete, data:{confirm:'are you sure?'}%>
+<br>
 <% end %>
-
+<br>
 <%= link_to 'create new user', new_user_path %>
 </div>
